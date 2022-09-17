@@ -1,6 +1,6 @@
 ---
 # tasks file for brightbox_ruby
-- name: install specific python software properties version
+- name: Install specific python software properties version
   ansible.builtin.apt:
     pkg: 'python-software-properties={{ brightbox_ruby_psp_pkg_version }}'
     state: installed
@@ -9,7 +9,7 @@
   when: brightbox_ruby_psp_pkg_version
   tags: package
 
-- name: install current/latest python software properties version
+- name: Install current/latest python software properties version
   ansible.builtin.apt:
     pkg: software-properties-common
     state: '{{ brightbox_ruby_psp_pkg_state }}'
@@ -18,13 +18,13 @@
   when: not brightbox_ruby_psp_pkg_version
   tags: package
 
-- name: add Brightbox repository
+- name: Add Brightbox repository
   ansible.builtin.apt_repository:
     repo: '{{ brightbox_ruby_ppa_repo }}'
     update_cache: yes
   tags: package
 
-- name: install Brightbox Ruby package
+- name: Install Brightbox Ruby package
   ansible.builtin.apt:
     pkg: '{{ item }}'
     state: absent
@@ -33,7 +33,7 @@
   with_items: '{{ brightbox_ruby_packages }}'
   tags: package
 
-- name: install gems
+- name: Install gems
   community.general.gem:
     name: '{{ item }}'
     state: present
