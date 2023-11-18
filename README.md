@@ -1,14 +1,15 @@
-# [brightbox_ruby](#brightbox_ruby)
+# [Ansible role brightbox_ruby](#brightbox_ruby)
 
 Install Brightbox ruby packages on your systems.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-brightbox_ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-brightbox_ruby/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-brightbox_ruby)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/brightbox_ruby)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/brightbox_ruby)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-brightbox_ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-brightbox_ruby/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-brightbox_ruby)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/brightbox_ruby)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+
 ```yaml
 ---
 - name: converge
@@ -21,10 +22,12 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
       brightbox_ruby_psp_pkg_state: latest
 ```
 
+Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
 ## [Role Variables](#role-variables)
 
-The default values for the variables are set in `defaults/main.yml`:
+The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/defaults/main.yml):
+
 ```yaml
 ---
 # defaults file for brightbox_ruby
@@ -41,7 +44,7 @@ brightbox_ruby_gems:
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-brightbox_ruby/blob/main/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/requirements.txt).
 
 
 ## [Context](#context)
@@ -58,16 +61,14 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|debian|all|
-|ubuntu|all|
+|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
+|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
 The minimum version of Ansible required is 2.10, tests have been done to:
 
 - The previous version.
 - The current version.
 - The development version.
-
-
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-brightbox_ruby/issues)
 
@@ -77,8 +78,14 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-Apache-2.0
+[Apache-2.0](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
+
+### [Special Thanks](#special-thanks)
+
+Template inspired by [Robert de Bock](https://github.com/robertdebock)
