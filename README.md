@@ -1,10 +1,10 @@
-# [Ansible role brightbox_ruby](#brightbox_ruby)
+# Ansible role [brightbox_ruby](https://galaxy.ansible.com/ui/standalone/roles/buluma/brightbox_ruby/documentation)
 
 Install Brightbox ruby packages on your systems.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-brightbox_ruby/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-brightbox_ruby/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-brightbox_ruby.svg)](https://github.com/buluma/ansible-role-brightbox_ruby/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/brightbox_ruby)](https://galaxy.ansible.com/ui/standalone/roles/buluma/brightbox_ruby/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -78,13 +78,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-brightbox_ruby/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
