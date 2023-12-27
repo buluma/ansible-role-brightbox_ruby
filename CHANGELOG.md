@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-brightbox_ruby/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-brightbox_ruby/compare/v0.1.0...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#6](https://github.com/buluma/ansible-role-brightbox_ruby/issues/6)
+
 ## [v0.1.0](https://github.com/buluma/ansible-role-brightbox_ruby/tree/v0.1.0) (2023-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-brightbox_ruby/compare/bf745d74e24501f58a36d33a4e09b7a739ead3f7...v0.1.0)
