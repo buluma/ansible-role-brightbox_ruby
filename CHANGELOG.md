@@ -7,6 +7,8 @@
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#6](https://github.com/buluma/ansible-role-brightbox_ruby/issues/6)
+- Update action [\#5](https://github.com/buluma/ansible-role-brightbox_ruby/issues/5)
+- rebuild action [\#4](https://github.com/buluma/ansible-role-brightbox_ruby/issues/4)
 
 ## [v0.1.0](https://github.com/buluma/ansible-role-brightbox_ruby/tree/v0.1.0) (2023-12-24)
 
