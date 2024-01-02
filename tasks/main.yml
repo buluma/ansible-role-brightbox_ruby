@@ -3,7 +3,7 @@
 - name: Install specific python software properties version
   ansible.builtin.apt:
     pkg: 'python-software-properties={{ brightbox_ruby_psp_pkg_version }}'
-    state: installed
+    state: latest
     update_cache: yes
     cache_valid_time: 3600
   when: brightbox_ruby_psp_pkg_version
