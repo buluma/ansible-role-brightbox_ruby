@@ -10,6 +10,10 @@
 - Update action [\#5](https://github.com/buluma/ansible-role-brightbox_ruby/issues/5)
 - rebuild action [\#4](https://github.com/buluma/ansible-role-brightbox_ruby/issues/4)
 
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#7](https://github.com/buluma/ansible-role-brightbox_ruby/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.1.0](https://github.com/buluma/ansible-role-brightbox_ruby/tree/v0.1.0) (2023-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-brightbox_ruby/compare/bf745d74e24501f58a36d33a4e09b7a739ead3f7...v0.1.0)
